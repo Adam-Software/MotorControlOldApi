@@ -5,7 +5,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setup(
     name='serial-motor-control',
-    version='0.1.0',
+    version='0.1.1',
     packages=['serial_motor_control'],
     url='https://github.com/Adam-Software/Serial-motor-control',
     license='MIT',

@@ -7,7 +7,7 @@ class MotorControl():
     def __init__(self):
         self.serial = SerialU()
 
-    def MotionManage(self, MotorID, FrontMotorSpeed, BackMotorSpeed):
+    def MotionManage(self, MotorID: int, FrontMotorSpeed: int, BackMotorSpeed: int):
         FrontMotorSpeed = 65534 - abs(FrontMotorSpeed) if FrontMotorSpeed < 0 else abs(FrontMotorSpeed)
         BackMotorSpeed = 65534 - abs(BackMotorSpeed) if BackMotorSpeed < 0 else abs(BackMotorSpeed)
 
