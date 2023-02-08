@@ -1,5 +1,4 @@
-import time
-from MotorControl import MotorControl
+from serial_motor_control.MotorControl import MotorControl
 
 pp=MotorControl()
 
